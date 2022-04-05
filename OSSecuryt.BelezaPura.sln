@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Aplication", "1 - Aplication", "{972238B7-0AB7-4C8F-84FD-6AF8EB4C2517}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{8ED9E701-12FB-4EA9-B01D-4565E1BA4777}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{22FB538F-6EAB-40D7-BC54-E115A8754BE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Servicos", "3 - Servicos", "{A40B0059-27E6-4B36-A034-90B2F606181C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSSecuryt.BelezaPura", "OSSecuryt.BelezaPura\OSSecuryt.BelezaPura.csproj", "{0C57EB8B-E106-4580-BA0E-33580C1879AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSSecuryt.BelezaPura.Domain", "OSSecuryt.BelezaPura.Domain\OSSecuryt.BelezaPura.Domain.csproj", "{5A203B26-5207-4CF1-8963-8BEBFF95C715}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSSecuryt.BelezaPura.Infra", "OSSecuryt.BelezaPura.Infra\OSSecuryt.BelezaPura.Infra.csproj", "{B7AC5314-89F0-4C54-8646-0183D6E38B19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSSecuryt.BelezaPura.servicos", "OSSecuryt.BelezaPura.servicos\OSSecuryt.BelezaPura.servicos.csproj", "{78366858-ACB2-492F-A0B6-CA0C0FB4A757}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C57EB8B-E106-4580-BA0E-33580C1879AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C57EB8B-E106-4580-BA0E-33580C1879AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C57EB8B-E106-4580-BA0E-33580C1879AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C57EB8B-E106-4580-BA0E-33580C1879AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A203B26-5207-4CF1-8963-8BEBFF95C715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A203B26-5207-4CF1-8963-8BEBFF95C715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A203B26-5207-4CF1-8963-8BEBFF95C715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A203B26-5207-4CF1-8963-8BEBFF95C715}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7AC5314-89F0-4C54-8646-0183D6E38B19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7AC5314-89F0-4C54-8646-0183D6E38B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7AC5314-89F0-4C54-8646-0183D6E38B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7AC5314-89F0-4C54-8646-0183D6E38B19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78366858-ACB2-492F-A0B6-CA0C0FB4A757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78366858-ACB2-492F-A0B6-CA0C0FB4A757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78366858-ACB2-492F-A0B6-CA0C0FB4A757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78366858-ACB2-492F-A0B6-CA0C0FB4A757}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0C57EB8B-E106-4580-BA0E-33580C1879AF} = {972238B7-0AB7-4C8F-84FD-6AF8EB4C2517}
+		{5A203B26-5207-4CF1-8963-8BEBFF95C715} = {8ED9E701-12FB-4EA9-B01D-4565E1BA4777}
+		{B7AC5314-89F0-4C54-8646-0183D6E38B19} = {22FB538F-6EAB-40D7-BC54-E115A8754BE8}
+		{78366858-ACB2-492F-A0B6-CA0C0FB4A757} = {A40B0059-27E6-4B36-A034-90B2F606181C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54046B5A-7833-478B-AD2D-22FF86EA788A}
+	EndGlobalSection
+EndGlobal

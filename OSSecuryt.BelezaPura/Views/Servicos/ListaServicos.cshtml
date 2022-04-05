@@ -1,0 +1,29 @@
+﻿@model List<OSSecuryt.BelezaPura.Domain.Entity.Servicos>
+
+<table class=" table rounded-sm" style="overflow: hidden;">
+    <thead>
+        <tr class="bg-color2">
+            <th scope="col" class="color-white">Nome Cliente</th>
+            <th scope="col" class="text-center color-white">Celular</th>
+            <th scope="col" class=" text-center color-white">Serviço</th>
+            <th scope="col" class=" text-center color-white">Efeito</th>           
+            <th scope="col" class=" text-center color-white">Valor</th>
+            <th scope="col" class=" text-center color-white">Data</th>
+
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var servico in Model)
+        {
+        <tr>
+            <th scope="row">@servico.NomeServico</th>
+            <td class="text-center"><a href="/Servicos/@servico.ClienteNome"><i class="fa fa-edit color-highlight"></i></a></td>
+            <td class="text-center"><a href="/Servicos/@servico.ClienteCelular"><i class="fa fa-edit color-highlight"></i></a></td>
+            <td class="text-center"><a href="/Servicos/@servico.Efeitos"><i class="fa fa-edit color-highlight"></i></a></td>
+            <td class="text-center"><a href="/Servicos/@servico.Valor"><i class="fa fa-edit color-highlight"></i></a></td>
+            <td class="text-center"><a href="/Servicos/@servico.DataServicos"><i class="fa fa-edit color-highlight"></i></a></td>
+        </tr>
+        }
+    </tbody>
+</table>
